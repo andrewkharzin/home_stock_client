@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/supabase": "^1.2.2",
+    "@pinia/nuxt": "^0.5.1",
+    "chart.js": "^4.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.379.0",
+    "numeral": "^2.0.6",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.8.2",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul-vue": "^0.1.2",
+    "vue": "^3.4.27",
+    "vue-qrcode": "^2.2.2",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vesp/nuxt-fontawesome": "^1.0.4",
+    "typescript": "^5.4.5"
+  }
+}
